@@ -22,7 +22,7 @@ set virtualedit=onemore
 " インデントはスマートインデント
 set smartindent
 " ビープ音を可視化
-"set visualbell
+set visualbell
 " 括弧入力時の対応する括弧を表示
 set showmatch
 " ステータスラインを常に表示
@@ -76,8 +76,6 @@ call plug#begin()
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 
 call plug#end()
-" NERDTreeの設定
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+
+"runtime! plugins/*.vim
+runtime! plugins/nerdtree.vim
