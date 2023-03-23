@@ -12,7 +12,7 @@ set hidden
 set showcmd
 " 見た目系
 " 行番号を表示
-"set number
+set number
 " 現在の行を強調表示
 set cursorline
 " 現在の行を強調表示（縦）
@@ -22,7 +22,7 @@ set virtualedit=onemore
 " インデントはスマートインデント
 set smartindent
 " ビープ音を可視化
-"set visualbell
+set visualbell
 " 括弧入力時の対応する括弧を表示
 set showmatch
 " ステータスラインを常に表示
@@ -70,14 +70,13 @@ noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
 " クリップボードコピー
 set clipboard=unnamedplus
+set clipboard+=unnamed
 
 call plug#begin()
 
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 
 call plug#end()
-" NERDTreeの設定
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+
+"runtime! plugins/*.vim
+runtime! plugins/nerdtree.vim
