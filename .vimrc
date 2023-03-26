@@ -20,9 +20,9 @@ set cursorcolumn
 " 行末の1文字先までカーソルを移動できるように
 set virtualedit=onemore
 " インデントはスマートインデント
-set smartindent
-" ビープ音を可視化
-set visualbell
+"set smartindent
+" 画面フラッシュ発生させない
+set novisualbell
 " 括弧入力時の対応する括弧を表示
 set showmatch
 " ステータスラインを常に表示
@@ -79,7 +79,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-
+Plug 'simeji/winresizer'
 
 call plug#end()
 
