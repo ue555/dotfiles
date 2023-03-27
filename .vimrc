@@ -85,3 +85,4 @@ call plug#end()
 
 "runtime! plugins/*.vim
 runtime! plugins/nerdtree.vim
+runtime! plugins/language-server.vim
