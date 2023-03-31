@@ -75,14 +75,24 @@ set clipboard+=unnamed
 call plug#begin()
 
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'mattn/vim-lsp-icons'
+
+Plug 'dense-analysis/ale'
 Plug 'simeji/winresizer'
+Plug 'reireias/vim-cheatsheet'
 
 call plug#end()
 
 "runtime! plugins/*.vim
 runtime! plugins/nerdtree.vim
 runtime! plugins/language-server.vim
+runtime! plugins/complememt.vim
+runtime! plugins/php.vim
+runtime! plugins/base.vim
