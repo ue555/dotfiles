@@ -16,6 +16,24 @@ if executable('gopls')
    autocmd BufWritePre *.go LspDocumentFormatSync
 endif
 
+if executable('intelephense')
+   au User lsp_setup call lsp#register_server({
+       \ 'name': 'intelephense',
+       \  'cmd': {server_info->['intelephense']},
+       \ 'allowlist': ['php'],
+       \ 'workspace_config': {'intelephense': {
+        \     'staticcheck': v:true,
+        \     'completeUnimported': v:true,
+        \     'caseSensitiveCompletion': v:true,
+        \     'usePlaceholders': v:true,
+        \     'completionDocumentation': v:true,
+        \     'watchFileChanges': v:true,
+        \     'hoverKind': 'SingleLine',
+        \   }},
+       \ })
+   autocmd BufWritePre *.php LspDocumentFormatSync
+endif
+
 function! s:on_lsp_buffer_enabled() abort
   setlocal omnifunc=lsp#complete
   setlocal signcolumn=yes
