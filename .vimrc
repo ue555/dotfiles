@@ -71,7 +71,8 @@ noremap <c-l> <c-w><c-l>
 " クリップボードコピー
 set clipboard=unnamedplus
 set clipboard+=unnamed
-
+" help日本語化
+set helplang=ja,en
 call plug#begin()
 
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
@@ -87,7 +88,7 @@ Plug 'mattn/vim-lsp-icons'
 Plug 'dense-analysis/ale'
 Plug 'simeji/winresizer'
 Plug 'reireias/vim-cheatsheet'
-
+Plug 'vim-jp/vimdoc-ja'
 call plug#end()
 
 "runtime! plugins/*.vim
