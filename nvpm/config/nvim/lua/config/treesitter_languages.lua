@@ -1,0 +1,16 @@
+return {
+  "bash",
+  "go",
+  "javascript",
+  "json",
+  "lua",
+  "markdown",
+  "markdown_inline",
+  "python",
+  "rust",
+  "toml",
+  "typescript",
+  "vim",
+  "vimdoc",
+  "yaml",
+}

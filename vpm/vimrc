@@ -1,0 +1,13 @@
+scriptencoding utf-8
+
+let g:vpm_dotfiles_root = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+
+execute 'source ' . fnameescape(g:vpm_dotfiles_root . '/vim/options.vim')
+execute 'source ' . fnameescape(g:vpm_dotfiles_root . '/vim/keymaps.vim')
+
+packloadall
+
+execute 'source ' . fnameescape(g:vpm_dotfiles_root . '/vim/plugins.vim')
+
+filetype plugin indent on
+syntax enable

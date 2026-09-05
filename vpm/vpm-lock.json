@@ -1,0 +1,46 @@
+{
+  "plugins": {
+    "ale": {
+      "commit": "e1789bc54483d76ac9ddb40b633d1645c8281914"
+    },
+    "ctrlp.vim": {
+      "commit": "0065942ef13ce28293e2b26cb622d035da050b44"
+    },
+    "editorconfig-vim": {
+      "commit": "c0227885a06b155d5aa5465e08b9800e8c939f70"
+    },
+    "gruvbox": {
+      "commit": "5d15b2765f59754d7ac263c88a0f6e3e58124951"
+    },
+    "nerdtree": {
+      "commit": "690d061b591525890f1471c6675bcb5bdc8cdff9"
+    },
+    "vim-airline": {
+      "commit": "192c2c7e8e58fcc771b1959e633b963984319a7c"
+    },
+    "vim-airline-themes": {
+      "commit": "77aab8c6cf7179ddb8a05741da7e358a86b2c3ab"
+    },
+    "vim-commentary": {
+      "commit": "64a654ef4a20db1727938338310209b6a63f60c9"
+    },
+    "vim-fugitive": {
+      "commit": "3b753cf8c6a4dcde6edee8827d464ba9b8c4a6f0"
+    },
+    "vim-gitgutter": {
+      "commit": "90b75207bd9b55d8ac4af15f72b4e935462014d0"
+    },
+    "vim-polyglot": {
+      "commit": "f061eddb7cdcc614c8406847b2bfb53099832a4e"
+    },
+    "vim-repeat": {
+      "commit": "65846025c15494983dafe5e3b46c8f88ab2e9635"
+    },
+    "vim-sensible": {
+      "commit": "0ce2d843d6f588bb0c8c7eec6449171615dc56d9"
+    },
+    "vim-surround": {
+      "commit": "3d188ed2113431cf8dac77be61b842acb64433d9"
+    }
+  }
+}

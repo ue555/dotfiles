@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    "folke/tokyonight.nvim",
+    "nvim-lua/plenary.nvim",
+    "nvim-telescope/telescope.nvim",
+    {
+      "url": "nvim-treesitter/nvim-treesitter",
+      "build": ":TSUpdate"
+    },
+    "lewis6991/gitsigns.nvim",
+    "folke/which-key.nvim",
+    "nvim-lualine/lualine.nvim",
+    "nvim-tree/nvim-web-devicons",
+    "mason-org/mason.nvim",
+    "mason-org/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+    "hrsh7th/nvim-cmp",
+    "hrsh7th/cmp-nvim-lsp",
+    "hrsh7th/cmp-buffer",
+    "hrsh7th/cmp-path",
+    "L3MON4D3/LuaSnip",
+    "saadparwaiz1/cmp_luasnip",
+    "rafamadriz/friendly-snippets"
+  ]
+}
